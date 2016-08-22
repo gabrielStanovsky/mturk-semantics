@@ -1,0 +1,200 @@
+<html>
+<head>
+<title>QASRL</title>
+
+CSS_AWESOMPLETE_STUB
+
+CSS_STUB
+
+
+JS_AWESOMPLETE_STUB
+
+
+
+</head>
+<body>
+
+
+
+
+
+
+<div id="form-container">
+
+<div class="small_buffer"></div>
+<h1><span class="blue">Question</span> <span class="red">Answering</span></h1>
+<div class="small_buffer"></div>
+
+
+
+
+
+<form method=get action='qasrl' id='formic'>
+
+<input type="hidden" name="user_id" value="USER_ID">
+<input type="hidden" name="candidate_id" value="CANDIDATE_ID">
+<input type="hidden" name="num_verb" value="NUM_VERB">
+<input type="hidden" name="questions_str" id="questions_str" value="QUESTIONS_STR">
+<input type="hidden" name="answers_token_str" id="answers_token_str" value="ANSWERS_TOKEN_STR">
+<input type="hidden" name="pred_index" id="pred_index" value="PRED_INDEX">
+<input type="hidden" name="answer" id="answer" value="">
+
+<div class="form-name">
+</br>
+</div>
+<div class="buffer"></div>
+
+<div class="form-instructions">
+<b>Annotating this HIT for the first time?</b></br>
+<a href = "http://u.cs.biu.ac.il/~stanovg/tutorial_open_ended.pdf" target="_blank">Follow this short presentation!</a></br></br>
+<b>Task Definition</b></br>
+You are given a sentence with a predefined target word. Your task is to ask simple questions related to the word <b>which could be answered from the sentence</b>.</br>
+<b>Ask as many questions as you can</b></br>
+<b>Note:</b> In some instances, you might not find any questions to ask. If that's the case, press the "I can't ask about this word!" button.</br>
+</br>
+<b>Asking Questions</b></br>
+Find the marked word in the sentence, and use the radio buttons to ask questions about it.</br>
+Once you finish phrasing the question, click on "add", and start phrasing a new question.</br>
+If you wish to re-ask a question, click "Undo".</br>
+</br>
+<b>Finishing Up</b></br>
+When you finished creating all the possible questions, click "Submit".</br>
+</br>
+<b>Above all, use your common sense.</b> Good luck!
+<div class="buffer"></div>
+</div>
+
+<div class="form-name">
+</br>
+</div>
+
+<div class="form-questionnaire">
+<div class="buffer"></div>
+<table style="table-layout: fixed; width: 100%">
+<tr>
+<td width="15%">&nbsp;<b><i>Sentence:</i></b></td>
+<td class="irregular-courier" width="80%">SENTENCE</td>
+<!-- <td class="pad">&nbsp;</td> -->
+</tr>
+<tr>
+<td class="regular"><span class="small">&nbsp;</span></td>
+<td class="regular"><span class="small">&nbsp;</span></td>
+<td class="irregular-courier"><span class="small">&nbsp;</span></td>
+<td class="pad"><span class="small">&nbsp;</span></td>
+</tr>
+<tr>
+<td class="regular"><span class="small">&nbsp;</span></td>
+<td class="regular"><span class="small">&nbsp;</span></td>
+<td class="irregular-courier"><span class="small">&nbsp;</span></td>
+<td class="pad"><span class="small">&nbsp;</span></td>
+</tr>
+<tr>
+<td class="regular">&nbsp;&nbsp;&nbsp;</td>
+<td class="irregular-courier-gray"><div id="current_question"></div></td>
+<td class="pad">&nbsp;</td>
+</tr>
+<tr>
+<td class="regular"><span class="small">&nbsp;</span></td>
+<td class="regular"><span class="small">&nbsp;</span></td>
+<td class="irregular-courier"><span class="small">&nbsp;</span></td>
+<td class="pad"><span class="small">&nbsp;</span></td>
+</tr>
+
+
+
+<tr>
+<td class="regular">&nbsp;<b><i>Ask a question:</i></b></td>
+<!--  <td class="regular">
+
+<table>
+<tr> -->
+<td>
+
+<div style="width:100%">
+
+<input id="question" data-list="CLOSED_CLASS_WORDS_STUB" data-multiple data-minchars="1" style="width:100%"/>
+	<pre class="language-javascript"><code><script>new Awesomplete($('input[data-multiple]'), {
+	filter: function(text, input) {
+		/*
+		alert("input = " + input);
+		alert("text = " + text);*/
+		
+		return Awesomplete.FILTER_CONTAINS(text, input.match(/[^ ]*$/)[0]);
+	},
+
+	replace: function(text) {
+		var before = this.input.value.match(/^.+ \s*|/)[0];
+		
+		//alert("text = " + text);
+		
+		
+		this.input.value = before + text + " ";
+	}
+});</script></code></pre>
+	
+</div>
+
+
+</td>
+
+<td>&nbsp;&nbsp;</td>
+
+<td class="regular">
+  ?   
+</td>
+
+
+
+
+</tr>
+<!--  </table> -->
+<div class="buffer"></div>
+<td class="pad">&nbsp;</td>
+</tr>
+<tr>
+<td class="regular"><span class="small">&nbsp;</span></td>
+<td class="regular"><span class="small">&nbsp;</span></td>
+<td class="irregular-courier"><span class="small">&nbsp;</span></td>
+<td class="pad"><span class="small">&nbsp;</span></td>
+</tr>
+<tr>
+<td class="regular"><span class="small">&nbsp;</span></td>
+<td class="regular"><span class="small">&nbsp;</span></td>
+<td class="irregular-courier"><span class="small">&nbsp;</span></td>
+<td class="pad"><span class="small">&nbsp;</span></td>
+</tr>
+<tr>
+<td class="regular">&nbsp;<b><i>Checked-in</br>&nbsp;questions:</i></b>&nbsp;&nbsp;</td>
+<td class="irregular-courier-gray"><div id="checked_questions"></div></td>
+<td class="pad">&nbsp;</td>
+</tr>
+</table>
+<div class="buffer"></div>
+</div>
+
+<div class="form-name">
+</br>
+</div>
+
+<div class="buffer"></div>
+
+<input type="button" id="answer_button" value="Add (Space)" onclick="checkClick()"> &nbsp;&nbsp; <input type="button" id="undo_button" value="Undo (Ctrl+Z)" onclick="undoClick()">
+
+
+<div class="buffer"></div>
+<input type="submit" id="finito" value="I Can't ask about this word!" name="finito" onclick="return validateUnselected();">
+<div class="buffer"></div>
+
+</form>
+</div>
+
+
+
+
+SCRIPT_STUB
+
+</body>
+</html>
+
+
+

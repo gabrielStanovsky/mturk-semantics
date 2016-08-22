@@ -1,0 +1,167 @@
+New Brunswick Scientific Co. , a maker of biotechnology instrumentation and equipment , said it adopted an anti - takeover plan giving shareholders the right to purchase shares at half price under certain conditions .
+maker	6	Who is someone making?	biotechnology instrumentation and equipment	8	12
+maker	6	What is someone making something of?	biotechnology instrumentation	8	10
+maker	6	Who makes something?	New Brunswick Scientific Co.	0	4
+maker	6	Who is making something?	New Brunswick Scientific Co.	0	4
+instrumentation	9	Who instrumentated?	New Brunswick Scientific Co.	0	4
+instrumentation	9	What are instruments of?	biotechnology	8	9
+equipment	11	Who equips someone?	New Brunswick Scientific Co.	0	4
+plan	20	Who is planning something?	New Brunswick Scientific Co.	0	4
+plan	20	Who is plan for?	shareholders	22	23
+plan	20	What is something planning?	giving shareholders the right to purchase shares at half price under certain conditions	21	34
+plan	20	How does plan do something?	the right to purchase shares at half price under certain conditions	23	34
+plan	20	What is plan?	anti - takeover	17	20
+plan	20	Who planned something?	New Brunswick Scientific Co. , a maker of biotechnology instrumentation and equipment	0	12
+right	24	What is right about something?	purchase shares	26	28
+right	24	Who righted something?	New Brunswick Scientific Co.	0	4
+price	30	How much is price of something?	purchase shares	26	28
+price	30	What was priced?	shares	27	28
+
+What the investors who oppose the proposed changes object to most is the effect they say the proposal would have on their ability to spot telltale `` clusters '' of trading activity -- buying or selling by more than one officer or director within a short period of time .
+time	48	How much time?	short period	45	47
+time	48	What was something timed something at something?	What	0	1
+buying	33	How is someone buying something?	`` clusters '' of trading activity	26	32
+buying	33	Who is buying something?	more than one officer or director	37	43
+buying	33	When is someone buying something?	within a short period of time	43	49
+selling	35	How can something sell?	`` clusters ''	26	29
+selling	35	What would someone sell?	one officer or director	39	43
+selling	35	Who is selling?	one officer or director	39	43
+selling	35	How much is selling?	clusters '' of trading activity	27	32
+selling	35	When would someone sell something?	within a short period of time	43	49
+selling	35	When is something sold?	within a short period of time	43	49
+officer	40	How much officers?	more than one	37	40
+
+It felt more like a party , or a highly polished jam session with a few friends , than a classical concert .
+concert	21	What was concert like?	a party	4	6
+concert	21	What is concert of?	classical	20	21
+party	5	What are partying about?	highly polished jam session with a few friends , than a classical concert	9	22
+
+And so it went through the first half : an ingeniously chosen potpourri of pieces , none longer than five minutes , none that would disturb or challenge a listener .
+minutes	20	How much minutes?	five	19	20
+listener	29	What did someone listen to?	an ingeniously chosen potpourri of pieces	9	15
+listener	29	Who was listening about something?	none	22	23
+
+Investors , money managers and corporate officials had until today to comment on the proposals , and the issue has produced more mail than almost any other issue in memory , Mr. Lane said .
+issue	18	Who has issues?	Investors , money managers and corporate officials	0	7
+issue	18	What is issue of something?	the proposals	13	15
+memory	29	What is memorize about?	other issue	26	28
+mail	22	How much is mail?	produced more	20	22
+mail	22	Who might mail?	Investors , money managers and corporate officials	0	7
+mail	22	When could someone mail?	until today	8	10
+mail	22	What could someone mail?	comment	11	12
+
+It was not an unpleasant evening , certainly , thanks to the high level of performance , the compositional talents of Mr. Douglas , and the obvious sincerity with which Mr. Stoltzman chooses his selections .
+thanks	9	Why is someone thanking something?	high level of performance , the compositional talents of Mr. Douglas , and the obvious sincerity with which Mr. Stoltzman chooses his selections	12	35
+level	13	What is level of something?	high	12	13
+evening	5	How is not evening?	unpleasant	4	5
+
+Clad in his trademark black velvet suit , the soft - spoken clarinetist announced that his new album , `` Inner Voices , '' had just been released , that his family was in the front row , and that it was his mother 's birthday , so he was going to play her favorite tune from the record .
+record	58	What was record?	Inner Voices	20	22
+record	58	Who has record?	the soft - spoken clarinetist	8	13
+mother	43	What is mother?	birthday	45	46
+mother	43	Who has mother?	clarinetist	12	13
+row	36	What is row?	front	35	36
+row	36	Where is row?	in the front	33	36
+suit	6	Who was suited?	the soft - spoken clarinetist	8	13
+tune	55	What is tune?	favorite	54	55
+tune	55	Where were tune from?	record	58	59
+tune	55	Who is tune for?	his mother	42	44
+
+Investors are appealing to the Securities and Exchange Commission not to limit their access to information about stock purchases and sales by corporate insiders .
+Commission	8	What is commission about?	Securities and Exchange	5	8
+information	15	What is someone informing something about?	stock purchases and sales by corporate insiders	17	24
+information	15	Who is not informed?	Investors	0	1
+information	15	Who was not informing someone?	the Securities and Exchange Commission	4	9
+sales	20	What is someone selling?	stock	17	18
+sales	20	Who is selling something?	corporate insiders	22	24
+access	13	Who might not access something?	Investors	0	1
+access	13	What is someone accessing?	to information about stock purchases and sales by corporate insiders	14	24
+access	13	What can not someone access?	information about stock purchases and sales by corporate insiders	15	24
+access	13	Why can not someone access something?	Securities and Exchange Commission	5	9
+Exchange	7	What is exchanged to do?	to limit their access to information about stock purchases and sales by corporate insiders	10	24
+Exchange	7	Who is exchanging about something?	Investors	0	1
+Exchange	7	What would someone exchange?	stock purchases and sales	17	21
+Exchange	7	Who would exchange something?	corporate insiders	22	24
+Exchange	7	How are something exchanged about something?	are appealing to the Securities	1	6
+
+Both funds are expected to begin operation around March 1 , subject to Securities and Exchange Commission approval .
+funds	1	When is funding around do something?	expected to begin operation	3	7
+funds	1	How must funds do something?	subject to Securities and Exchange Commission approval	11	18
+funds	1	What will funds do?	begin operation	5	7
+funds	1	When will funds do something?	March 1	8	10
+approval	17	Who is approving of something?	Securities and Exchange Commission	13	17
+operation	6	When is something operating?	around March 1	7	10
+operation	6	How can something operate?	subject to Securities and Exchange Commission approval	11	18
+operation	6	What will operate?	Both funds	0	2
+operation	6	What is operating around something?	Both funds	0	2
+operation	6	When will something operate?	around March 1	7	10
+operation	6	What is operating?	Both funds	0	2
+operation	6	How must something operate?	subject to Securities and Exchange Commission approval	11	18
+Exchange	15	Who are exchanging?	Both funds	0	2
+Exchange	15	When will exchange?	around March 1	7	10
+
+The rest of the concert was more straight jazz and mellow sounds written by Charlie Parker , Ornette Coleman , Bill Douglas and Eddie Gomez , with pictures for the Douglas pieces .
+jazz	8	When do someone jazz?	The rest of the concert	0	5
+jazz	8	What is jazz of?	straight	7	8
+rest	1	How was rest about?	with pictures for the Douglas pieces	26	32
+rest	1	What was rest of?	more straight jazz and mellow sounds	6	12
+concert	4	Who is concerting?	Charlie Parker , Ornette Coleman , Bill Douglas and Eddie Gomez	14	25
+
+Under two new features , participants will be able to transfer money from the new funds to other investment funds or , if their jobs are terminated , receive cash from the funds .
+funds	32	What is funded?	investment	18	19
+funds	32	Who is funded?	participants	5	6
+funds	19	How would someone fund something?	transfer money from the new funds	10	16
+funds	19	Who could fund something?	participants	5	6
+funds	19	What is funds?	investment	18	19
+cash	29	Where is cash from?	funds	32	33
+funds	15	What is funds?	new	14	15
+
+The Orwellian `` New World Information Order '' would give government officials rights against the press ; journalists would be obliged to kowtow to their government , which would have licensing and censorship powers and , indeed , duties to block printing of `` wrong '' ideas .
+censorship	32	Who is censored?	the press ; journalists	14	18
+censorship	32	Who will censor?	government	25	26
+censorship	32	How might someone censor something?	The Orwellian `` New World Information Order ''	0	8
+censorship	32	Who might censor something?	government officials	10	12
+censorship	32	What might someone censor?	`` wrong '' ideas	43	47
+censorship	32	Who might someone censor?	journalists	17	18
+printing	41	Who might not print something?	government officials	10	12
+printing	41	What is not printed?	wrong '' ideas	44	47
+printing	41	Who is printing?	journalists	17	18
+printing	41	What would not print?	`` wrong '' ideas	43	47
+Order	6	What is order about?	government officials rights against the press	10	16
+Order	6	What order about doing?	journalists would be obliged to kowtow to their government	17	26
+Order	6	What order of doing something?	which would have licensing and censorship powers and , indeed , duties to block printing of `` wrong '' ideas	27	47
+government	25	What does someone govern?	licensing and censorship powers and , indeed , duties to block printing	30	42
+government	25	What is someone governing?	rights against the press	12	16
+government	25	What is govern doing?	have licensing and censorship powers and , indeed , duties to block printing of `` wrong '' ideas	29	47
+government	25	Who is governed?	journalists	17	18
+
+BELL INDUSTRIES Inc. increased its quarterly to 10 cents from seven cents a share .
+share	13	What did share do?	increased its quarterly	3	6
+share	13	How much did share do something?	10 cents from seven cents	7	12
+
+W. Ed Tyler , 37 years old , a senior vice president at this printing concern , was elected president of its technology group , a new position .
+president	19	Who presides?	W. Ed Tyler	0	3
+president	19	Who is presiding?	W. Ed Tyler	0	3
+president	19	What is presided about?	technology group	22	24
+president	11	Who was presiding?	W. Ed Tyler	0	3
+president	11	Who is presiding?	W. Ed Tyler	0	3
+president	11	What will someone preside at?	this printing concern	13	16
+president	11	Who is presiding for something?	W. Ed Tyler	0	3
+president	11	What is someone presiding?	technology group	22	24
+position	27	Where was someone positioned?	president of its technology group	19	24
+position	27	What is position?	new	26	27
+position	27	Who is positioned to do something?	W. Ed Tyler , 37 years old , a senior vice president at this printing concern	0	16
+position	27	Who had position?	Tyler	2	3
+position	27	What was position?	president	19	20
+position	27	Where was position?	at this printing concern	12	16
+concern	15	What is someone concerned about?	printing	14	15
+group	23	What is group about?	technology	22	23
+
+This has n't much bothered the UNESCO delegates , who last week could n't even agree to raise funds by selling off a fancy 19th - century French chateau the agency somehow owns .
+funds	18	Who was not funded?	the UNESCO delegates	5	8
+funds	18	What is not funded?	UNESCO	6	7
+
+They sow a row of male - fertile plants nearby , which then pollinate the male - sterile plants .
+row	3	What were rowed?	male - fertile plants	5	9
+row	3	What is row of?	of male - fertile plants	4	9
+

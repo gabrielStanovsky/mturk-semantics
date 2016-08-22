@@ -1,0 +1,239 @@
+<style type="text/css">
+
+body {
+  background-color: rgb(231,238,247);
+  background-image: url('//ssl.gstatic.com/docs/forms/themes/images/v1/0AX42CRMsmRFbUy03NTAzM2Q4My03ODU1LTQ2NzItODI2YS1kZmU5YzdiMzZjOGQ/blue-stripe-bg.png');
+  background-repeat: repeat;
+  background-position: left top;
+}
+
+#powered_by {
+        margin-top: 20px;
+        border-top: 2px solid black;
+        font-style: italic;
+    }
+
+#traceback {
+        color: red;
+    }
+
+div#form-container {
+  background-color: rgb(255,255,255);
+  border-color: rgb(212,212,212);
+  width: 1200px;
+  margin: 20px auto 0;
+  text-align: center;
+  font-family: Calibri, Tahoma, Arial, sans-serif;
+}
+
+div.form-name {
+  margin: 0;
+  background-color: rgb(251,251,255);
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+}
+
+div.form-instructions {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+}
+
+div.form-questionnaire {
+  text-align: left;
+}
+
+div.buffer {
+  width: 1200px;
+  height: 20px;
+  text-align: center;
+}
+
+div.small_buffer {
+  width: 1200px;
+  height: 10px;
+  text-align: center;
+}
+
+div.micro_buffer {
+  width: 1200px;
+  height: 2px;
+  text-align: center;
+}
+
+span.token {
+    cursor: hand;
+}
+
+span.emph {
+  color: #05D;
+  font-weight: bold;
+}
+
+span.blue {
+  color: #05D;
+}
+
+span.red {
+  color: #F07;
+}
+
+span.small {
+  font-size: 8px;
+}
+
+select {
+  font-family: Calibri, Tahoma, Arial, sans-serif;
+  font-size: 16px;
+}
+
+option {
+  font-family: Calibri, Tahoma, Arial, sans-serif;
+  font-size: 16px;
+}
+
+input.sentence {
+  font-family: Calibri, Tahoma, Arial, sans-serif;
+  font-size: 16px;
+  width: 1000px;
+}
+
+input.na[type="radio"] {
+  visibility: hidden;
+  display: none;
+}
+
+select.aligned {
+  visibility: hidden;
+  display: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr.input {
+  border-width: 5px;
+  border-style: solid hidden;
+  border-color: #CCDDF8;
+}
+
+td.regular {
+  white-space: nowrap;
+  vertical-align: text-top;
+}
+
+td.irregular {
+  min-width: 1000px;
+  vertical-align: text-top;
+}
+
+td.irregular-courier {
+  min-width: 1000px;
+  vertical-align: text-top;
+  font-family: "Courier New", Courier, monospace;
+}
+
+td.irregular-courier-gray {
+  min-width: 1000px;
+  vertical-align: text-top;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(64,64,64);
+}
+
+td.pad {
+  width: 99%;
+  vertical-align: text-top;
+}
+
+/* -- Gabis addition for dropdowns */
+.clearfix:after {
+    display:block;
+    clear:both;
+}
+ 
+/*----- Menu Outline -----*/
+.menu-wrap {
+    width:100%;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+    background:#3e3436;
+}
+ 
+.menu {
+    width:1000px;
+    margin:0px auto;
+}
+ 
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family:'Ek Mukta';
+}
+ 
+.menu a {
+    transition:all linear 0.15s;
+    color:#919191;
+}
+ 
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:#be5b70;
+}
+ 
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+ 
+/*----- Top Level -----*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+}
+ 
+.menu > ul > li > a {
+    padding:10px 40px;
+    display:inline-block;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+}
+ 
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#2e2728;
+}
+ 
+/*----- Bottom Level -----*/
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu {
+    width:160%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#2e2728;
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#3e3436;
+}
+
+</style>
